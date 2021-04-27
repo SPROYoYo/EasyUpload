@@ -1,7 +1,7 @@
 <?php
 include 'EasyUpload.php';
 
-EasyUpload::$destination = 'uploads/images; /* path */
+EasyUpload::$destination = 'uploads/images'; /* path */
 EasyUpload::$extensions = ['.jpg', '.jpeg', '.png', '.bmp']; /* allowed extensions list */
 EasyUpload::$maxMemory = 2.5; /* set max file size to be allowed in MB */
 EasyUpload::$resize = [
